@@ -1,1 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    height: 100vh;
+    background-color:rgb(245, 241, 154);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+.calculator {
+    height: 600px;
+    width: 400px;
+    padding: 1px;
+    background-color: rgb(255, 179, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-body {
+    height: 570px;
+    width: 370px;
+    background-color: rgb(231, 85, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 145px;
+    width: 347px;
+    flex: 0 0 auto;
+    background-color: rgb(246, 246, 239);
+}
+
+button {
+    background-color: aliceblue;
+    flex: 1 1 auto;
+    width: 75px;
+    height: 80px;
+    font: inherit;
+}
+
+button:hover {
+    background-color: rgba(204, 31, 164, 0.573);
+    color: white;
+}
+
+.key-area {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 1px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 350px;
+    gap: 3px;
+}
+
+#zero {
+
+}
